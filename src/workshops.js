@@ -178,7 +178,7 @@ export const WORKSHOPS = [
     date: '2–7 August 2026',
     duration: '1 hour',
     externalUrl: null,
-    registrationFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScBPF9ixo8Qc7JDKdvWPwyLCsioBZ6S7sQ1QPwdF5hxob0FWw/viewform?embedded=true",
+    registrationFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSekOasAhQ7U4AkIaZUDbWaOwL_V0dkvanJKUwhbFD6hpnYnjw/viewform?embedded=true",
     description:
       'A reflective talk drawing on research and lived experience in conflict zones. \
       This session addresses how social media and digital platforms influence societal polarization and violence, particularly in Africa. \
