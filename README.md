@@ -1,4 +1,4 @@
-# Playbook Tool
+# Playbook and Tool Workshop at Indaba 2026
 
 This repository hosts the workshop site for the Indaba 2026 workshop: *Data, Culture, and Community — Interactive Exhibition of the AfricaNLP Playbook and Annotation Tool*.
 
