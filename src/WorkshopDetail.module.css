@@ -4,7 +4,7 @@
 
 /* ── Header ── */
 .header {
-  background: linear-gradient(135deg, #1a73e8 0%, #1557b0 100%);
+  background: linear-gradient(135deg, #ff9800 0%, #e67e22 100%);
   color: white;
   padding: 4rem 2rem 3rem;
   margin-bottom: 3rem;
@@ -68,7 +68,12 @@
   font-size: 0.95rem;
   color: rgba(255, 255, 255, 0.9);
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  border-top: 3px solid transparent;
+  background: linear-gradient(90deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.15) 100%) no-repeat top;
+  background-size: 100% 3px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 4"><defs><filter id="brush"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise" /><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" /></filter></filter></defs><path d="M0,2 L5,0 L10,2 L15,0 L20,2 L25,0 L30,2 L35,0 L40,2 L45,0 L50,2 L55,0 L60,2 L65,0 L70,2 L75,0 L80,2 L85,0 L90,2 L95,0 L100,2" stroke="rgba(255,255,255,0.3)" stroke-width="2.5" fill="none" stroke-linecap="round" filter="url(%23brush)" opacity="0.8"/></svg>');
+  background-size: 100% 3px;
+  background-position: top;
   justify-content: center;
 }
 
@@ -100,6 +105,31 @@
 .section {
   max-width: 780px;
   margin: 0 auto 3rem;
+  padding-top: 3rem;
+  border-top: 3px dashed #ff9800;
+  position: relative;
+}
+
+.section::before {
+  content: '';
+  position: absolute;
+  top: -15px;
+  left: 0;
+  right: 0;
+  height: 12px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 10"><defs><filter id="brushWave"><feTurbulence type="fractalNoise" baseFrequency="0.15" numOctaves="2" /><feDisplacementMap in="SourceGraphic" in2="SourceGraphic" scale="1" /></filter></defs><path d="M0,5 Q5,0 10,5 T20,5 T30,5 T40,5 T50,5 T60,5 T70,5 T80,5 T90,5 T100,5" stroke="rgb(255,152,0)" stroke-width="2" fill="none" stroke-linecap="round" filter="url(%23brushWave)"/></svg>');
+  background-repeat: repeat-x;
+  background-size: auto 100%;
+  background-position: 0 center;
+}
+
+.section:first-of-type {
+  padding-top: 0;
+  border-top: none;
+}
+
+.section:first-of-type::before {
+  display: none;
 }
 
 .sectionTitle {
@@ -109,7 +139,12 @@
   color: var(--ifm-color-emphasis-900);
   margin: 0 0 1.25rem;
   padding-bottom: 0.65rem;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 3px solid transparent;
+  background: linear-gradient(90deg, rgba(255,152,0,0.8) 0%, rgba(255,152,0,0.8) 100%) no-repeat bottom;
+  background-size: 100% 3px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 4"><defs><filter id="brush"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise" /><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" /></filter></filter></defs><path d="M0,2 L5,0 L10,2 L15,0 L20,2 L25,0 L30,2 L35,0 L40,2 L45,0 L50,2 L55,0 L60,2 L65,0 L70,2 L75,0 L80,2 L85,0 L90,2 L95,0 L100,2" stroke="rgb(255,152,0)" stroke-width="2.5" fill="none" stroke-linecap="round" filter="url(%23brush)" opacity="0.85"/></svg>');
+  background-size: 100% 3px;
+  background-position: bottom;
 }
 
 .lead {
@@ -131,7 +166,12 @@
   grid-template-columns: 120px 1fr;
   gap: 1.5rem;
   padding: 1.1rem 0;
-  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 3px solid transparent;
+  background: linear-gradient(90deg, rgba(255,152,0,0.6) 0%, rgba(255,152,0,0.6) 100%) no-repeat bottom;
+  background-size: 100% 3px;
+  background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 4"><defs><filter id="brush"><feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" result="noise" /><feDisplacementMap in="SourceGraphic" in2="noise" scale="1.5" /></filter></filter></defs><path d="M0,2 L5,0 L10,2 L15,0 L20,2 L25,0 L30,2 L35,0 L40,2 L45,0 L50,2 L55,0 L60,2 L65,0 L70,2 L75,0 L80,2 L85,0 L90,2 L95,0 L100,2" stroke="rgb(255,152,0)" stroke-width="2.5" fill="none" stroke-linecap="round" filter="url(%23brush)" opacity="0.75"/></svg>');
+  background-size: 100% 3px;
+  background-position: bottom;
 }
 
 .agendaItem:last-child {
@@ -216,7 +256,7 @@
   top: 0.5rem;
   width: 10px;
   height: 10px;
-  border: 2px solid var(--ifm-color-primary);
+  border: 2px solid #ff9800;
   border-radius: 50%;
   background: white;
 }
@@ -313,14 +353,14 @@
 }
 
 .primaryBtn {
-  background: var(--ifm-color-primary);
+  background: #ff9800;
   color: #fff;
-  border: 1px solid var(--ifm-color-primary);
+  border: 1px solid #ff9800;
 }
 
 .primaryBtn:hover {
-  background: var(--ifm-color-primary-dark);
-  border-color: var(--ifm-color-primary-dark);
+  background: #e67e22;
+  border-color: #e67e22;
   color: #fff;
   text-decoration: none;
   transform: translateY(-1px);
@@ -328,13 +368,13 @@
 
 .secondaryBtn {
   background: transparent;
-  color: var(--ifm-color-primary);
-  border: 1px solid var(--ifm-color-emphasis-300);
+  color: #ff9800;
+  border: 2px solid #ff9800;
 }
 
 .secondaryBtn:hover {
-  border-color: var(--ifm-color-primary);
-  color: var(--ifm-color-primary);
+  border-color: #e67e22;
+  color: #e67e22;
   text-decoration: none;
 }
 

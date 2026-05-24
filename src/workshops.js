@@ -167,4 +167,59 @@ export const WORKSHOPS = [
     requirements: ['Hybrid venue with stable internet', 'Devices for participants', 'Printed materials'],
     organizers: [{ name: 'Masakhane community team', affil: '' }],
   },
+  {
+    id: 'polarization-2026',
+    status: 'upcoming',
+    type: 'Indaba Workshop 2026 - Reflective Talk',
+    title: 'Reflecting on Online Polarization and Weaponization of Social Media in Africa:',
+    subtitle: 'The Prospect of AI for Peacebuilding',
+    venue: 'Deep Learning Indaba 2026',
+    location: 'Pan-Atlantic University, Lagos, Nigeria',
+    date: '2–7 August 2026',
+    duration: '1 hour',
+    externalUrl: null,
+    registrationFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLScBPF9ixo8Qc7JDKdvWPwyLCsioBZ6S7sQ1QPwdF5hxob0FWw/viewform?embedded=true",
+    description:
+      'A reflective talk drawing on research and lived experience in conflict zones. \
+      This session addresses how social media and digital platforms influence societal polarization and violence, particularly in Africa. \
+      Through a compelling case study of Ethiopia\'s Northern War, the talk illustrates social media weaponization\'s impact on displacement, gender-based violence, and peacebuilding efforts. \
+      Complementing this, the POLAR research introduces the largest multilingual, multicultural dataset with over 110,000 annotated instances across 22 languages, demonstrating the potential of advanced NLP models for detecting polarized content and supporting early warning systems. \
+      The session emphasizes the importance of ethical, inclusive, and context-aware digital tools for peacebuilding in Africa.',
+    objectives: [
+      'Understand how social media and digital platforms influence societal polarization and violence in conflict regions.',
+      'Learn about the Ethiopia case study: social media weaponization and its impact on vulnerable groups.',
+      'Discover how multilingual NLP models can detect online polarization across diverse African languages.',
+      'Recognize the ethical considerations and cultural challenges in deploying AI for peacebuilding.',
+      'Explore practical recommendations for inclusive, context-aware digital interventions.',
+    ],
+    agenda: [
+      { time: '10 min', title: 'Introduction and Context Setting', detail: 'Establish importance of the topic, overview of digital media\'s dual role, brief personal background from war zone experience.' },
+      { time: '15 min', title: 'Case Study: Ethiopia\'s Social Media Weaponization', detail: 'Real-world example of how social media exacerbates conflict and impacts vulnerable groups, with emphasis on offline consequences (violence, displacement, gender-based violence).' },
+      { time: '15 min', title: 'Research Insights: Detecting Online Polarization', detail: 'Introduction to POLAR research focusing on multilingual NLP models, key findings, and the need for inclusive, culturally sensitive approaches.' },
+      { time: '5 min', title: 'Implications and Future Directions', detail: 'Ethical AI considerations and practical steps for utilizing AI in peacebuilding efforts.' },
+      { time: '10 min', title: 'Q&A and Discussion', detail: 'Engage audience, clarify points, and collect diverse perspectives on implementation and policy.' },
+      { time: '5 min', title: 'Closing Remarks', detail: 'Summarize key messages, reinforce call to action, and thank participants.' },
+    ],
+    outcomes: [
+      'Increased awareness of how digital platforms influence polarization and conflict in Africa.',
+      'Understanding of recent advances in multilingual NLP for detecting online polarization.',
+      'Awareness of technical and cultural challenges in developing inclusive digital solutions.',
+      'Inspiration for policymakers, peacebuilders, and technologists to leverage digital tools for peace.',
+      'Foundation for cross-disciplinary collaboration on culturally relevant, ethical digital peacebuilding.',
+      'Empowerment to advocate for digital literacy and responsible platform regulation.',
+    ],
+    audience: [
+      'Researchers and academics in AI, NLP, social science, conflict studies, and peacebuilding.',
+      'Policymakers and government officials involved in peace processes and digital regulation.',
+      'Peacebuilders and civil society organizations engaged in conflict mitigation and community engagement.',
+      'Technology developers and data scientists building multilingual NLP tools.',
+      'International organizations and donor agencies supporting peacebuilding initiatives.',
+      'Anyone interested in responsible AI deployment and African language technologies.',
+    ],
+    organizers: [
+      { name: 'Adem Chanie Ali', affil: 'University of Hamburg, Germany and Bahir Dar University, Ethiopia' },
+      { name: 'Seid Muhie Yimam', affil: 'University of Hamburg, Germany' },
+      { name: 'Shamsuddeen Hassan Muhammed', affil: 'Bayero University Kano, Nigeria' },
+    ],
+  },
 ];

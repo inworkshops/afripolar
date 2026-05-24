@@ -35,8 +35,19 @@ lerna-debug.log*
 .DS_Store
 Thumbs.db
 
-# Testing
+# Testing & Verification
 coverage
+*.test.js
+verify-*.js
+check-*.js
+test-*.js
+final-*.js
+
+# Vite
+.vite
+
+# ESLint cache
+.eslintcache
 
 # Local dev files
 *.local

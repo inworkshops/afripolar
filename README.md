@@ -1,14 +1,14 @@
-# Playbook and Tool Workshop at Indaba 2026
+# AfriPolar Workshop Site
 
-This repository hosts the workshop site for the Indaba 2026 workshop: *Data, Culture, and Community — Interactive Exhibition of the AfricaNLP Playbook and Annotation Tool*.
+This repository hosts the workshop site for African language NLP workshops, currently featuring the polarization research reflective talk at Deep Learning Indaba 2026.
 
-**Live:** https://inworkshops.github.io/playbookntool/
+**Live:** https://inworkshops.github.io/afripolar/
 
 ## Installation
 
 ```bash
-git clone https://github.com/inworkshops/playbookntool.git
-cd playbookntool
+git clone https://github.com/inworkshops/afripolar.git
+cd afripolar
 npm install
 ```
 
