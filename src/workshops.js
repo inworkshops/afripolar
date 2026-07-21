@@ -170,7 +170,7 @@ export const WORKSHOPS = [
   {
     id: 'polarization-2026',
     status: 'upcoming',
-    type: 'Indaba Workshop 2026 - Reflective Talk',
+    type: 'Indaba Workshop 2026 - Reflective Discussion',
     title: 'Reflecting on Online Polarization and Weaponization of Social Media in Africa:',
     subtitle: 'The Prospect of AI for Peacebuilding',
     venue: 'Deep Learning Indaba 2026',
@@ -180,9 +180,9 @@ export const WORKSHOPS = [
     externalUrl: null,
     registrationFormUrl: "https://docs.google.com/forms/d/e/1FAIpQLSekOasAhQ7U4AkIaZUDbWaOwL_V0dkvanJKUwhbFD6hpnYnjw/viewform?embedded=true",
     description:
-      'A reflective talk drawing on research and lived experience in conflict zones. \
+      'A reflective discussion drawing on research and lived experience in conflict zones. \
       This session addresses how social media and digital platforms influence societal polarization and violence, particularly in Africa. \
-      Through a compelling case study of Ethiopia\'s Northern War, the talk illustrates social media weaponization\'s impact on displacement, gender-based violence, and peacebuilding efforts. \
+      Through a compelling case study of Ethiopia\'s Northern War, the discussion illustrates social media weaponization\'s impact on displacement, gender-based violence, and peacebuilding efforts. \
       Complementing this, the POLAR research introduces the largest multilingual, multicultural dataset with over 110,000 annotated instances across 22 languages, demonstrating the potential of advanced NLP models for detecting polarized content and supporting early warning systems. \
       The session emphasizes the importance of ethical, inclusive, and context-aware digital tools for peacebuilding in Africa.',
     objectives: [
